@@ -24,7 +24,7 @@ public class CommonTests {
         driver.get("https://demo.guru99.com/insurance/v2/index.php");
     }
 
-    /*
+
     @AfterMethod
     public void tearDown() throws InterruptedException {
         Thread.sleep(5000);
@@ -32,7 +32,7 @@ public class CommonTests {
             driver.quit();
         }
     }
-    */
+
     public String randomVehicleNumber(){
         String generatedString= RandomStringUtils.randomNumeric(4);
         return "GJ-01-"+generatedString;
